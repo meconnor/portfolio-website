@@ -120,17 +120,17 @@ section {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 0.5em;
+    gap: 2.5em;
     max-width: 600px;
 }
 
 .info-box h1 {
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: 500;
 }
 
 .info-box h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 400;
 }
 
