@@ -16,7 +16,8 @@ menu.addEventListener("click", () => {
 function openSocialMedia(platform) {
     const urls = {
         github: "https://github.com/meconnor",
-        linkedin:"linkedin.com/in/connor-meriweather-6300a2279"
+        linkedin: "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
+        insta: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     };
 
     const url = urls[platform];
