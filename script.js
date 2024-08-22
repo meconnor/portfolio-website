@@ -9,7 +9,23 @@ menu.addEventListener("click", () => {
     nav.classList.toggle('active');
 });
 
+// Links to projects in PROJECTS
 
+function openProjects(project) {
+    const links = {
+        nutraStride: "https://github.com/KBSwift/pivot-pirates",
+        ormJava: "https://github.com/meconnor/JavaGA4",
+        todoList: "https://github.com/meconnor/toDoList"
+    };
+
+    const link = links[project]
+
+    if (link) {
+        window.open(link,"_blank");
+    } else {
+        console.error("No URL defined for the project:", project)
+    }
+}
 
 // Links to socials in FOOTER
 
