@@ -176,6 +176,7 @@ section {
 
 #about img {
     width: 30vw;
+    height: ;
     border-radius: 1em;
 }
 
@@ -269,7 +270,12 @@ section {
 .box:hover {
     border: 3px solid rgb(100,100,100);
 }
-
+#github-icon {
+   font-size: 2em;
+}
+#github-text {
+    font-size: 2em;
+}
 .box p {
     opacity: 0.8;
 }
