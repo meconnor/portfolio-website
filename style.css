@@ -251,6 +251,7 @@ section {
 }
 
 .box {
+    align-items: center;
     border: 3px solid rgb(49,49,49);
     border-radius: 0.5em;
     display: flex;
@@ -277,7 +278,10 @@ section {
 }
 .box img {
     min-width: 25px;
+    max-width: 100%;
     border-radius: 0.5em;
+    height: 300px;
+    display: block;
 }
 
 
