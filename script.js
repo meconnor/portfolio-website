@@ -57,3 +57,19 @@ function openSocialMedia(platform) {
         console.error("No URL defined for the platform:", platform);
     }
 }
+
+// CONTACT FORM
+
+function SendMail() {
+    var params = {
+        from_name: document.getElementById("fullName").value,
+        email_id: document.getElementById("email_id").value,
+        message: document.getElementById("message").value
+    };
+
+    emailjs.send("service_3hd0ape", "template_99w3y2b", params).then(function(res) {
+        alert("Your message has been received! I will get back to you as soon as possible." + res.status);
+    }).catch(function(error) {
+        console.error("Error sending email:", error);
+    });
+}

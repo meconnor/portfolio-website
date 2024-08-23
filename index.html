@@ -6,7 +6,13 @@
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("678ZEVZyt6n-PT2oJ");
+        })();
+    </script>
+    
 </head>
 <body>
     
@@ -125,18 +131,18 @@
         <form action="#">
             <div class="input-box">
                 <span>Full Name</span>
-                <input type="text" placeholder="Enter your Full Name">
+                <input type="text" id="fullName" placeholder="Enter your Full Name">
             </div>
             <div class="input-box">
                 <span>Email</span>
-                <input type="text" placeholder="Enter your Email">
+                <input type="text" id="email_id" placeholder="Enter your Email">
             </div>
             <div class="input-box">
                 <span>Message</span>
-                <input type="text" placeholder="Enter your Message">
+                <input type="text" id="message" placeholder="Enter your Message">
             </div>
 
-            <div class="btn">Submit</div>
+            <div class="btn" onclick="SendMail()">Submit</div>
         </form>
 
 
