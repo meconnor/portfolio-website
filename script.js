@@ -49,7 +49,7 @@ function openProjects(project) {
     const links = {
         nutraStride: "https://github.com/KBSwift/pivot-pirates",
         ormJava: "https://github.com/meconnor/JavaGA4",
-        todoList: "https://github.com/meconnor/toDoList"
+        toDoList: "https://github.com/meconnor/toDoList"
     };
 
     const link = links[project]
